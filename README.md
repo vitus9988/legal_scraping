@@ -1,2 +1,2 @@
 # legal_scraping
-합법적인 스크래핑을 위한.
+robots.txt를 위반하지 않는 합법적인 스크래핑을 위한.
