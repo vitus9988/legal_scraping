@@ -1,4 +1,4 @@
-from module import web_crawling as wc
+from module import web_scraping as wc
 import urllib.robotparser
 
 
@@ -12,9 +12,11 @@ def robots_checker(robots_page, inner_page):
 def main(robots_page, inner_page):
     if robots_checker(robots_page, inner_page) is True:
         soup = wc(inner_page)
-        print(soup)
+        #print(soup)
+        return soup
     else:
-        print('error')
+        #print('error')
+        return False
 
 
 if __name__ == '__main__':
